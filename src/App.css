@@ -221,7 +221,7 @@ body {
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  border: 2px solid var(--border);
+  border: 2px solid var(--text-muted);
   cursor: pointer;
   display: flex;
   align-items: center;
