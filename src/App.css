@@ -1,6 +1,11 @@
 .app {
   min-height: 100vh;
   padding-bottom: 80px;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 /* Header */
@@ -112,6 +117,7 @@
   max-width: 600px;
   margin: 0 auto;
   padding: 16px;
+  overflow-x: hidden;
 }
 
 /* Shared Components */
@@ -147,11 +153,13 @@
   display: flex;
   gap: 8px;
   margin-bottom: 16px;
+  overflow: hidden;
 }
 
 .input-group input,
 .input-group select {
   flex: 1;
+  min-width: 0;
   padding: 10px 14px;
   border: 1px solid var(--border);
   border-radius: 10px;
@@ -198,6 +206,7 @@
   margin-bottom: 8px;
   background: var(--bg-tertiary);
   transition: background 0.2s;
+  overflow: hidden;
 }
 
 .item-row.completed {
@@ -232,6 +241,7 @@
 .item-content {
   flex: 1;
   min-width: 0;
+  overflow: hidden;
 }
 
 .item-text {
